@@ -1,0 +1,109 @@
+/**********LAYOUT**********/
+
+body{
+    font-family: Arial, serif;
+    background-color: aliceblue;
+}
+
+.guest{
+    width: 200px;
+}
+span{
+    color: gray;
+}
+section, header{
+    padding: 10px 60px 20px 60px;
+    background-color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+header ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 15px;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: dodgerblue;
+    vertical-align: middle;
+}
+.circle{
+    border-radius: 50%;
+}
+.hobbies{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hobbies li{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+.hobbies img {
+    width: 30px;
+    height: 30px;
+}
+.hobbies div{
+    margin-left: 20px;
+    margin-bottom:15px;
+}
+.hobbies div p{
+    color:grey;
+    line-height: 1.5;
+}
+.download{
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: 2px solid cornflowerblue;
+    text-align: center;
+    border-radius: 20px;
+    color: black;
+    display: inline-block;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0 0 20px grey;
+}
+.download:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+.download:focus{
+    outline:none;
+}
+.container{
+    box-shadow: 0 0 20px grey;
+    width:900px;
+    margin: 0 auto;
+}
+
+
+/**********TEXT**********/
+
+
+h1{
+    margin-top: 0;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 28px;
+}
+h4{
+    margin-top: 10px;
+}
+p{
+    font-size: 14px;
+}
+li{
+    font-size: 14px;
+}
